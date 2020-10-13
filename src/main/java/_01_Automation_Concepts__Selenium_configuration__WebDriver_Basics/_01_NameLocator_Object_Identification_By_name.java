@@ -25,6 +25,7 @@ public class _01_NameLocator_Object_Identification_By_name {
 	}
 
 	public static void main(String[] args) {
+		/*start */
 		_01_NameLocator_Object_Identification_By_name namLocator = new _01_NameLocator_Object_Identification_By_name();
 		String name = namLocator.getNameLocator();
 		System.out.println("The name is " + name);
