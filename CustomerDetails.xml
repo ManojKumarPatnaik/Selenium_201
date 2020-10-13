@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CustomerDetails>
+	<Customer id="1">
+		<Customername>Rahul</Customername>
+		<Invoicenumber>RL123</Invoicenumber>
+		<Amount>2000</Amount>
+		<Mobilenumber>9632145871</Mobilenumber>
+	</Customer>
+</CustomerDetails>

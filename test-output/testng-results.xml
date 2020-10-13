@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1557" started-at="2020-08-25T11:12:21Z" finished-at="2020-08-25T11:12:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1557" started-at="2020-08-25T11:12:21Z" finished-at="2020-08-25T11:12:23Z">
+      <class name="Ex5TestNG">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:Ex5TestNG@2c34f934]" name="createDriver" is-config="true" duration-ms="4642" started-at="2020-08-25T11:12:16Z" finished-at="2020-08-25T11:12:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="testUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Ex5TestNG@2c34f934]" name="testUser" duration-ms="559" started-at="2020-08-25T11:12:22Z" data-provider="Users" finished-at="2020-08-25T11:12:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rakesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9876565454]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[rakesh@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUser -->
+        <test-method status="FAIL" signature="testUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Ex5TestNG@2c34f934]" name="testUser" duration-ms="465" started-at="2020-08-25T11:12:22Z" data-provider="Users" finished-at="2020-08-25T11:12:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tracy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NewYork]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[tracy@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[Name doesn't match expected:<[Tracy]> but was:<[Rakesh]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: Name doesn't match expected:<[Tracy]> but was:<[Rakesh]>
+at junit.framework.Assert.assertEquals(Assert.java:100)
+at Ex5TestNG.testUser(Ex5TestNG.java:122)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUser -->
+      </class> <!-- Ex5TestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,23 @@
+{
+	"cover": "AgentDetails",
+	"Agents": [
+		{
+			"id": "1",
+			"FirstName": "Rahul",
+			"LastName": "Dravid",
+			"UserName": "RahulDravid",
+			"Password": "Indore",
+			"PhoneNumber": "8965231471",
+			"Email": "RD@hotmail.com"
+		},
+		{
+			"id": "2",
+			"FirstName": "Sachin",
+			"LastName": "Tendulkar",
+			"UserName": "SachinTendulkar",
+			"Password": "Mumbai",
+			"PhoneNumber": "9865231471",
+			"Email": "ST@hotmail.com"
+		}
+	]
+}
